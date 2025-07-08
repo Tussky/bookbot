@@ -6,7 +6,7 @@ def split_words(text):
     return len(text.split())
 
 
-def letters_in_text(text):
+def count_letters(text):
     letter_dict = {}
 
     for letter in text:
@@ -17,6 +17,3 @@ def letters_in_text(text):
             letter_dict[letter] = 1
 
     return letter_dict
-
-
-print(letters_in_text("hello, how are you? What are you doing this fine day..."))
